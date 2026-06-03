@@ -10,43 +10,65 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              SOBRE <span className="purple"> MIM </span>
             </h1>
+
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              Olá! Meu nome é <b className="purple">Luiz Henrique</b> e sou
+              estudante de Engenharia de Computação no
+              <b className="purple"> CEFET-MG Campus Timóteo</b>.
+
               <br />
               <br />
-              I’m proficient in
+
+              Tenho experiência no desenvolvimento de aplicações web,
+              utilizando tecnologias modernas para construção de sistemas,
+              APIs REST e integração entre front-end e back-end.
+
+              <br />
+              <br />
+
+              Atualmente possuo conhecimentos em
+
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  Java, Spring Boot, Angular, TypeScript, JavaScript,
+                  HTML, CSS, SQL e MySQL.
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+
               <br />
               <br />
-              My key areas of interest include developing
+
+              Tenho grande interesse pelas áreas de
+
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Desenvolvimento Back-end,
+                  Desenvolvimento Full Stack,
+                  Engenharia de Software,
+                  APIs REST e Arquitetura de Sistemas.
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+
+              Sou apaixonado por tecnologia e desenvolvimento de software,
+              buscando constantemente aprimorar minhas habilidades por meio
+              de projetos acadêmicos, pessoais e experiências práticas.
+
+              <br />
+              <br />
+
+              Atualmente estou em busca de oportunidades de estágio para
+              aplicar meus conhecimentos, adquirir experiência profissional
+              e contribuir para o desenvolvimento de soluções inovadoras.
             </p>
           </Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
@@ -57,4 +79,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;

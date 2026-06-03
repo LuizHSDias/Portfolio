@@ -8,37 +8,58 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Soumyajit Behera</span>{" "}
-            from <span className="purple">Bhubaneswar, India</span>.
-            <br />
-            I’m currently working as a{" "}
-            <span className="purple">Software Developer</span> at{" "}
-            <span className="purple">Juspay</span>.
-            <br />I hold an Integrated M.Sc. (IMSc) in{" "}
-            <span className="purple">Mathematics and Computing</span> from{" "}
-            <span className="purple">BIT Mesra</span>.
+            Olá! Eu sou <span className="purple">Luiz Henrique</span>,
+            estudante de
+            <span className="purple"> Engenharia de Computação</span>
+            no CEFET-MG Campus Timóteo.
+
             <br />
             <br />
-            Outside of coding, I love engaging in activities that keep me
-            creative and inspired:
+
+            Tenho experiência no desenvolvimento de aplicações web utilizando
+            <span className="purple">
+              {" "}
+              Java, Spring Boot, Angular, TypeScript,
+              JavaScript, HTML, CSS e MySQL
+            </span>.
+
+            <br />
+            <br />
+
+            Meu principal interesse está nas áreas de
+            <span className="purple">
+              {" "}
+              Desenvolvimento Back-end,
+              Desenvolvimento Full Stack,
+              APIs REST e Engenharia de Software.
+            </span>
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games 🎮
+              <ImPointRight /> Desenvolvimento Web
             </li>
+
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs ✍️
+              <ImPointRight /> Desenvolvimento Back-end
             </li>
+
             <li className="about-activity">
-              <ImPointRight /> Traveling and Exploring New Places 🌍
+              <ImPointRight /> APIs REST com Spring Boot
+            </li>
+
+            <li className="about-activity">
+              <ImPointRight /> Estruturas de Dados e Algoritmos
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "Transformando ideias em soluções através da tecnologia."
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+
+          <footer className="blockquote-footer">
+            Luiz Henrique
+          </footer>
         </blockquote>
       </Card.Body>
     </Card>
