@@ -7,10 +7,10 @@ function Type() {
       options={{
         strings: [
           "Estudante de Engenharia de Computação",
-          "Desenvolvedor Java",
-          "Desenvolvedor Spring Boot",
-          "Desenvolvedor Web",
+          "Desenvolvedor Back-end",
           "Desenvolvedor Full Stack",
+          "Entusiasta de Engenharia de Software",
+          "Desenvolvedor Java",
         ],
         autoStart: true,
         loop: true,

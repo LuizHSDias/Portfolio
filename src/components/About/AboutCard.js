@@ -8,48 +8,40 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Olá! Eu sou <span className="purple">Luiz Henrique</span>,
-            estudante de
-            <span className="purple"> Engenharia de Computação</span>
-            no CEFET-MG Campus Timóteo.
+            Sou estudante de Engenharia de Computação no CEFET-MG Campus
+            Timóteo e tenho grande interesse por tecnologia, desenvolvimento
+            de software e resolução de problemas.
 
             <br />
             <br />
 
-            Tenho experiência no desenvolvimento de aplicações web utilizando
-            <span className="purple">
-              {" "}
-              Java, Spring Boot, Angular, TypeScript,
-              JavaScript, HTML, CSS e MySQL
-            </span>.
+            Gosto de transformar ideias em soluções práticas através da
+            programação, participando de projetos acadêmicos e pessoais que me
+            permitem aplicar conhecimentos e aprender novas tecnologias.
 
             <br />
             <br />
 
-            Meu principal interesse está nas áreas de
-            <span className="purple">
-              {" "}
-              Desenvolvimento Back-end,
-              Desenvolvimento Full Stack,
-              APIs REST e Engenharia de Software.
-            </span>
+            Atualmente busco oportunidades para desenvolver minhas habilidades
+            profissionais, contribuir em projetos reais e continuar evoluindo
+            como desenvolvedor.
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Desenvolvimento Web
+              <ImPointRight /> Desenvolvimento de Software
             </li>
 
             <li className="about-activity">
-              <ImPointRight /> Desenvolvimento Back-end
+              <ImPointRight /> Aprendizado contínuo
             </li>
 
             <li className="about-activity">
-              <ImPointRight /> APIs REST com Spring Boot
+              <ImPointRight /> Resolução de problemas
             </li>
 
             <li className="about-activity">
-              <ImPointRight /> Estruturas de Dados e Algoritmos
+              <ImPointRight /> Projetos acadêmicos e pessoais
             </li>
           </ul>
 

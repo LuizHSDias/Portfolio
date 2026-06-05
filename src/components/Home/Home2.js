@@ -21,14 +21,15 @@ function Home2() {
               <br />
               <br />
 
-              Tenho experiência no desenvolvimento de aplicações web,
-              utilizando tecnologias modernas para construção de sistemas,
-              APIs REST e integração entre front-end e back-end.
+              Tenho interesse em tecnologia e desenvolvimento de software,
+              buscando constantemente aplicar na prática os conhecimentos
+              adquiridos durante a graduação por meio de projetos acadêmicos e
+              pessoais.
 
               <br />
               <br />
 
-              Atualmente possuo conhecimentos em
+              Possuo experiência com
 
               <i>
                 <b className="purple">
@@ -41,31 +42,17 @@ function Home2() {
               <br />
               <br />
 
-              Tenho grande interesse pelas áreas de
-
-              <i>
-                <b className="purple">
-                  {" "}
-                  Desenvolvimento Back-end,
-                  Desenvolvimento Full Stack,
-                  Engenharia de Software,
-                  APIs REST e Arquitetura de Sistemas.
-                </b>
-              </i>
-
-              <br />
-              <br />
-
-              Sou apaixonado por tecnologia e desenvolvimento de software,
-              buscando constantemente aprimorar minhas habilidades por meio
-              de projetos acadêmicos, pessoais e experiências práticas.
+              Ao longo da minha formação, venho desenvolvendo aplicações web,
+              APIs REST e sistemas voltados para resolver problemas reais,
+              sempre buscando aprimorar minhas habilidades técnicas e aprender
+              novas tecnologias.
 
               <br />
               <br />
 
               Atualmente estou em busca de oportunidades de estágio para
-              aplicar meus conhecimentos, adquirir experiência profissional
-              e contribuir para o desenvolvimento de soluções inovadoras.
+              adquirir experiência profissional, contribuir em projetos
+              desafiadores e continuar evoluindo como desenvolvedor.
             </p>
           </Col>
 
