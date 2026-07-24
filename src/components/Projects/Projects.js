@@ -3,10 +3,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import lacuna from "../../Assets/Projects/Lacuna.png";
+import commerce from "../../Assets/Projects/Commerce.png";
+import agenda from "../../Assets/Projects/agenda.png";
+import PETIT from "../../Assets/Projects/PETIT.png";
 import CRUD from "../../Assets/Projects/CRUD.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
 
@@ -30,7 +30,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={PETIT}
               isBlog={false}
               title="Sistema de Controle de Empréstimos"
               description="Sistema desenvolvido com Java, Spring Boot, Angular e MySQL para gerenciamento de empréstimos de livros. Possui autenticação, controle de usuários, registro de operações e organização dos processos internos."
@@ -40,7 +40,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={agenda}
               isBlog={false}
               title="Agenda Médica (TimeSaver)"
               description="Aplicação desenvolvida em Python, Flask e Docker para gerenciamento de consultas médicas. Implementa APIs REST, integração com API simulada e containerização utilizando Docker Compose."
@@ -50,7 +50,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={lacuna}
               isBlog={false}
               title="Sincronização de Relógios (Lacuna)"
               description="Desafio técnico desenvolvido em C# e .NET para sincronização temporal entre sondas utilizando cálculo de RTT, Clock Offset, múltiplos formatos de timestamp e tratamento de falhas de comunicação."
@@ -60,7 +60,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={commerce}
               isBlog={false}
               title="DSCommerce"
               description="Projeto de e-commerce desenvolvido com Java e Spring Boot para estudo de APIs REST, modelagem de entidades, autenticação e boas práticas de desenvolvimento."

@@ -534,6 +534,24 @@ button:focus {
   transform: scale(1.03);
 }
 
+.project-card-img{
+    cursor:pointer;
+}
+
+.project-card-img:hover{
+    transform:scale(1.03);
+}
+
+.modal-content{
+    background:#081B33 !important;
+    border-radius:15px;
+    border:none;
+}
+
+.modal-body img{
+    border-radius:15px;
+}
+
 
 /* Remove o padding padrão do Bootstrap */
 
