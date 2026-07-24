@@ -8,44 +8,80 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Sou estudante de Engenharia de Computação no CEFET-MG Campus
-            Timóteo e tenho grande interesse por tecnologia, desenvolvimento
-            de software e resolução de problemas.
+            Sou estudante de{" "}
+            <b className="purple">Engenharia de Computação</b> no{" "}
+            <b className="purple">CEFET-MG Campus Timóteo</b>, apaixonado por
+            tecnologia e desenvolvimento de software.
 
             <br />
             <br />
 
-            Gosto de transformar ideias em soluções práticas através da
-            programação, participando de projetos acadêmicos e pessoais que me
-            permitem aplicar conhecimentos e aprender novas tecnologias.
+            Ao longo da graduação participei de projetos de{" "}
+            <b className="purple">pesquisa, ensino e extensão</b>, além do
+            desenvolvimento de aplicações web e APIs REST utilizando{" "}
+            <b className="purple">
+              Java, Spring Boot, Angular, React, Python e SQL
+            </b>
+            .
 
             <br />
             <br />
 
-            Atualmente busco oportunidades para desenvolver minhas habilidades
-            profissionais, contribuir em projetos reais e continuar evoluindo
-            como desenvolvedor.
+            Também busco evoluir continuamente por meio de{" "}
+            <b className="purple">cursos especializados</b> e{" "}
+            <b className="purple">desafios técnicos</b>, colocando em prática
+            novos conhecimentos e acompanhando as boas práticas do mercado de
+            desenvolvimento de software.
+
+            <br />
+            <br />
+
+            Tenho interesse em construir soluções escaláveis, escrever código
+            limpo e colaborar no desenvolvimento de sistemas que gerem valor
+            para pessoas e empresas.
+
+            <br />
+            <br />
+
+            Atualmente busco oportunidades de estágio ou nível júnior para
+            contribuir em projetos desafiadores, aprender com profissionais
+            experientes e continuar evoluindo como desenvolvedor.
           </p>
 
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Desenvolvimento de Software
+              <ImPointRight /> Desenvolvimento Back-end
             </li>
 
             <li className="about-activity">
-              <ImPointRight /> Aprendizado contínuo
+              <ImPointRight /> Desenvolvimento Full Stack
             </li>
 
             <li className="about-activity">
-              <ImPointRight /> Resolução de problemas
+              <ImPointRight /> APIs REST
             </li>
 
             <li className="about-activity">
-              <ImPointRight /> Projetos acadêmicos e pessoais
+              <ImPointRight /> Arquitetura de Software
+            </li>
+
+            <li className="about-activity">
+              <ImPointRight /> Aprendizado Contínuo
+            </li>
+
+            <li className="about-activity">
+              <ImPointRight /> Trabalho em Equipe
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p
+            style={{
+              color: "#60A5FA",
+              fontStyle: "italic",
+              textAlign: "center",
+              marginTop: "25px",
+            }}
+          >
             "Transformando ideias em soluções através da tecnologia."
           </p>
 

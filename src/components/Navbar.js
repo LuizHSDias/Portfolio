@@ -37,9 +37,10 @@ function NavBar() {
         <Navbar.Brand href="/" className="d-flex">
           <h2
             style={{
-              color: "#6DB33F",
-              fontWeight: "bold",
+              color: "#3B82F6",
+              fontWeight: "700",
               margin: 0,
+              letterSpacing: "1px",
             }}
           >
             LH

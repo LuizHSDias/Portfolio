@@ -21,72 +21,75 @@ function Projects() {
         </h1>
 
         <p style={{ color: "white" }}>
-          Alguns dos projetos acadêmicos e profissionais que desenvolvi.
+          Projetos acadêmicos, desafios técnicos e aplicações desenvolvidas
+          durante minha graduação para colocar em prática conhecimentos em
+          desenvolvimento Back-end, Full Stack e APIs REST.
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
 
-  <Col md={4} className="project-card">
-    <ProjectCard
-      imgPath={chatify}
-      isBlog={false}
-      title="Sistema de Controle de Empréstimos"
-      description="Sistema desenvolvido com Spring Boot, Angular e MySQL para gerenciamento de empréstimos. Possui controle de usuários, registro de operações e organização de processos internos."
-      ghLink="https://github.com/LuizHSDias"
-    />
-  </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Sistema de Controle de Empréstimos"
+              description="Sistema desenvolvido com Java, Spring Boot, Angular e MySQL para gerenciamento de empréstimos de livros. Possui autenticação, controle de usuários, registro de operações e organização dos processos internos."
+              ghLink="https://github.com/LuizHSDias"
+            />
+          </Col>
 
-  <Col md={4} className="project-card">
-    <ProjectCard
-      imgPath={editor}
-      isBlog={false}
-      title="CRUD Node.js"
-      description="Aplicação CRUD desenvolvida com Node.js e JavaScript para gerenciamento de dados utilizando operações de cadastro, consulta, atualização e remoção."
-      ghLink="https://github.com/LuizHSDias/CRUD_Node"
-    />
-  </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Agenda Médica (TimeSaver)"
+              description="Aplicação desenvolvida em Python, Flask e Docker para gerenciamento de consultas médicas. Implementa APIs REST, integração com API simulada e containerização utilizando Docker Compose."
+              ghLink="https://github.com/LuizHSDias"
+            />
+          </Col>
 
-  <Col md={4} className="project-card">
-    <ProjectCard
-      imgPath={leaf}
-      isBlog={false}
-      title="DSCommerce"
-      description="Projeto de e-commerce desenvolvido para estudo de desenvolvimento web, modelagem de entidades, integração de dados e boas práticas de programação."
-      ghLink="https://github.com/LuizHSDias/DSCommerce"
-    />
-  </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={leaf}
+              isBlog={false}
+              title="Sincronização de Relógios (Lacuna)"
+              description="Desafio técnico desenvolvido em C# e .NET para sincronização temporal entre sondas utilizando cálculo de RTT, Clock Offset, múltiplos formatos de timestamp e tratamento de falhas de comunicação."
+              ghLink="https://github.com/LuizHSDias"
+            />
+          </Col>
 
-  <Col md={4} className="project-card">
-    <ProjectCard
-      imgPath={emotion}
-      isBlog={false}
-      title="Calculadora IMC"
-      description="Aplicação web desenvolvida com HTML, CSS e JavaScript para cálculo do Índice de Massa Corporal, apresentando classificação automática dos resultados."
-      ghLink="https://github.com/LuizHSDias/calculadora-imc"
-    />
-  </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="DSCommerce"
+              description="Projeto de e-commerce desenvolvido com Java e Spring Boot para estudo de APIs REST, modelagem de entidades, autenticação e boas práticas de desenvolvimento."
+              ghLink="https://github.com/LuizHSDias/DSCommerce"
+            />
+          </Col>
 
-  <Col md={4} className="project-card">
-    <ProjectCard
-      imgPath={suicide}
-      isBlog={false}
-      title="Programação Linear em Python"
-      description="Implementação de conceitos de programação linear utilizando Python, aplicando técnicas matemáticas para resolução de problemas de otimização."
-      ghLink="https://github.com/LuizHSDias/Programacao-Linear-Python"
-    />
-  </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="CRUD Node.js"
+              description="Aplicação CRUD desenvolvida utilizando Node.js, Express, Sequelize e MySQL, permitindo cadastro, consulta, atualização e remoção de registros."
+              ghLink="https://github.com/LuizHSDias/CRUD_Node"
+            />
+          </Col>
 
-  <Col md={4} className="project-card">
-    <ProjectCard
-      imgPath={bitsOfCode}
-      isBlog={false}
-      title="Alerta de Compra"
-      description="Projeto em JavaScript para monitoramento e automação de alertas relacionados a produtos e oportunidades de compra."
-      ghLink="https://github.com/LuizHSDias/alerta_compra"
-    />
-  </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="Portfólio Pessoal"
+              description="Portfólio responsivo desenvolvido em React e Bootstrap para apresentar minha trajetória, projetos, tecnologias e experiências em desenvolvimento de software."
+              ghLink="https://github.com/LuizHSDias"
+              demoLink="https://luizhsdias.vercel.app"
+            />
+          </Col>
 
-</Row>
+        </Row>
       </Container>
     </Container>
   );

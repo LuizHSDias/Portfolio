@@ -1,9 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+
+import homeLogo from "../../Assets/home-main.svg";
+
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -12,11 +14,15 @@ function Home() {
     <section>
       <Container fluid className="home-section" id="home">
         <Particle />
+
         <Container className="home-content">
-          <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Olá!
+          <Row className="align-items-center">
+            <Col lg={7} md={12} className="home-header">
+              <h1 className="heading">
+                Olá!{" "}
+                <span role="img" aria-label="wave">
+                  👋
+                </span>
               </h1>
 
               <h1 className="heading-name">
@@ -24,17 +30,54 @@ function Home() {
                 <strong className="main-name"> LUIZ HENRIQUE </strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div
+                style={{
+                  paddingTop: "30px",
+                  paddingBottom: "35px",
+                }}
+              >
                 <Type />
               </div>
+
+              <p
+                style={{
+                  maxWidth: "700px",
+                  fontSize: "1.15rem",
+                  lineHeight: "1.9",
+                  color: "#d1d5db",
+                  textAlign: "left",
+                  marginTop: "10px",
+                }}
+              >
+                Sou estudante de{" "}
+                <strong>Engenharia de Computação</strong> no CEFET-MG, com foco
+                em desenvolvimento <strong>Back-end</strong> utilizando{" "}
+                <strong>Java, Spring Boot e APIs REST</strong>. Também possuo
+                experiência com Angular, React, TypeScript, Python e bancos de
+                dados SQL.
+
+                <br />
+                <br />
+
+                Atualmente busco oportunidades para desenvolver soluções de
+                qualidade, aprender continuamente e contribuir em projetos
+                desafiadores.
+              </p>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col
+              lg={5}
+              md={12}
+              className="d-flex justify-content-center align-items-center"
+            >
               <img
                 src={homeLogo}
-                alt="home pic"
+                alt="Desenvolvedor"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{
+                  maxWidth: "90%",
+                  maxHeight: "450px",
+                }}
               />
             </Col>
           </Row>
@@ -43,13 +86,17 @@ function Home() {
 
       <Home2 />
 
-      <Container>
-        <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
+      <Container fluid className="home-contact-section">
+        <Row>
           <Col md={12} className="home-about-social">
             <h1>Contato</h1>
 
             <p>
-              Vamos nos <span className="purple">conectar</span>!
+              Estou disponível para{" "}
+              <span className="purple">
+                novas oportunidades e conexões profissionais
+              </span>
+              .
             </p>
 
             <ul className="home-about-social-links">
@@ -59,6 +106,7 @@ function Home() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
+                  aria-label="GitHub"
                 >
                   <AiFillGithub />
                 </a>
@@ -70,6 +118,7 @@ function Home() {
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
+                  aria-label="LinkedIn"
                 >
                   <FaLinkedinIn />
                 </a>

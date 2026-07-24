@@ -1,65 +1,45 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
+        <Row className="justify-content-center">
+          <Col lg={10} md={11} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              SOBRE <span className="purple"> MIM </span>
+              SOBRE <span className="purple">MIM</span>
             </h1>
 
             <p className="home-about-body">
-              Olá! Meu nome é <b className="purple">Luiz Henrique</b> e sou
-              estudante de Engenharia de Computação no
-              <b className="purple"> CEFET-MG Campus Timóteo</b>.
+              Sou estudante de{" "}
+              <b className="purple">Engenharia de Computação</b> no{" "}
+              <b className="purple">CEFET-MG Campus Timóteo</b>, com interesse
+              em desenvolvimento de software e foco na construção de soluções
+              Back-end utilizando{" "}
+              <b className="purple">Java e Spring Boot</b>.
 
               <br />
               <br />
 
-              Tenho interesse em tecnologia e desenvolvimento de software,
-              buscando constantemente aplicar na prática os conhecimentos
-              adquiridos durante a graduação por meio de projetos acadêmicos e
-              pessoais.
+              Ao longo da graduação participei de projetos de pesquisa, ensino,
+              extensão e desenvolvimento de software, além de complementar minha
+              formação por meio de cursos especializados e desafios técnicos.
 
               <br />
               <br />
 
-              Possuo experiência com
-
-              <i>
-                <b className="purple">
-                  {" "}
-                  Java, Spring Boot, Angular, TypeScript, JavaScript,
-                  HTML, CSS, SQL e MySQL.
-                </b>
-              </i>
+              Tenho interesse em desenvolver aplicações escaláveis, aplicar boas
+              práticas de desenvolvimento e evoluir continuamente como
+              profissional.
 
               <br />
               <br />
 
-              Ao longo da minha formação, venho desenvolvendo aplicações web,
-              APIs REST e sistemas voltados para resolver problemas reais,
-              sempre buscando aprimorar minhas habilidades técnicas e aprender
-              novas tecnologias.
-
-              <br />
-              <br />
-
-              Atualmente estou em busca de oportunidades de estágio para
-              adquirir experiência profissional, contribuir em projetos
-              desafiadores e continuar evoluindo como desenvolvedor.
+              Conheça mais sobre minha trajetória, experiências, tecnologias e
+              projetos na página{" "}
+              <b className="purple">Sobre</b>.
             </p>
-          </Col>
-
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
           </Col>
         </Row>
       </Container>

@@ -7,23 +7,26 @@ function Github() {
     <Row
       style={{
         justifyContent: "center",
-        paddingBottom: "10px",
+        paddingBottom: "40px",
         color: "white",
       }}
     >
       <h1
-        className="project-heading pb-4"
-        style={{ paddingBottom: "20px" }}
+        className="project-heading"
+        style={{
+          paddingBottom: "30px",
+          textAlign: "center",
+        }}
       >
         Minha atividade no <strong className="purple">GitHub</strong>
       </h1>
 
       <GitHubCalendar
         username="LuizHSDias"
-        blockSize={30}
-        blockMargin={10}
-        color="#c084f5"
-        fontSize={20}
+        blockSize={18}
+        blockMargin={6}
+        color="#3B82F6"
+        fontSize={16}
       />
     </Row>
   );
