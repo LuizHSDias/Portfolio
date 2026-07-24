@@ -566,6 +566,9 @@ button:focus {
 
 .project-card-view .card-body {
   padding: 24px !important;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 /* TÍTULO */
@@ -577,6 +580,12 @@ button:focus {
   text-align: center;
   color: white;
   margin-bottom: 18px;
+
+  min-height: 70px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* DESCRIÇÃO */
@@ -587,7 +596,8 @@ button:focus {
   font-size: 1rem;
   line-height: 1.8;
   text-align: justify;
-  min-height: 150px;
+
+  flex: 1;
 }
 
 /* BOTÕES */
@@ -596,8 +606,16 @@ button:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12px;
-  margin-top: 18px;
+  gap: 10px;
+
+  margin-top: auto;
+  padding-top: 0px;
+
+  flex-wrap: wrap;
+}
+
+.project-buttons .btn {
+  min-width: 15px;
 }
 
 .btn-primary {

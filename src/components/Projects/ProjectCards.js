@@ -4,7 +4,10 @@ import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 
 import { CgWebsite } from "react-icons/cg";
-import { BsGithub } from "react-icons/bs";
+import {
+  BsGithub,
+  BsFileEarmarkText,
+} from "react-icons/bs";
 
 function ProjectCards(props) {
   const [show, setShow] = useState(false);
@@ -44,6 +47,18 @@ function ProjectCards(props) {
               {props.isBlog ? "Blog" : "GitHub"}
             </Button>
 
+            {props.readmeLink && (
+              <Button
+                variant="outline-primary"
+                href={props.readmeLink}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <BsFileEarmarkText /> &nbsp;
+                README
+              </Button>
+            )}
+
             {!props.isBlog && props.demoLink && (
               <Button
                 variant="primary"
@@ -52,7 +67,7 @@ function ProjectCards(props) {
                 rel="noreferrer"
               >
                 <CgWebsite /> &nbsp;
-                Demo
+                Portfólio
               </Button>
             )}
           </div>
