@@ -21,7 +21,7 @@ function Home() {
               <h1 className="heading">
                 Olá!{" "}
                 <span role="img" aria-label="wave">
-                  👋
+                  
                 </span>
               </h1>
 
