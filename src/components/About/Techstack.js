@@ -8,6 +8,14 @@ import ReactIcon from "../../Assets/TechIcons/React.svg";
 import Python from "../../Assets/TechIcons/Python.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
 import SQL from "../../Assets/TechIcons/SQL.svg";
+import HTML from "../../Assets/TechIcons/HTML.svg";
+import CSS from "../../Assets/TechIcons/CSS.svg";
+import Docker from "../../Assets/TechIcons/Docker.svg";
+import CSharp from "../../Assets/TechIcons/CSharp.svg";
+import DotNet from "../../Assets/TechIcons/DotNet.svg";
+import Pandas from "../../Assets/TechIcons/Pandas.svg";
+import Numpy from "../../Assets/TechIcons/Numpy.svg";
+import Sklearn from "../../Assets/TechIcons/ScikitLearn.svg";
 
 import { SiAngular, SiSpringboot } from "react-icons/si";
 
@@ -23,6 +31,21 @@ function Techstack() {
       <Col xs={6} md={3} lg={2} className="tech-icons">
         <SiSpringboot size={26} color="#6DB33F" />
         <div className="tech-icons-text">Spring Boot</div>
+      </Col>
+
+      <Col xs={6} md={3} lg={2} className="tech-icons">
+        <img src={Python} alt="Python" className="tech-icon-images" />
+        <div className="tech-icons-text">Python</div>
+      </Col>
+
+      <Col xs={6} md={3} lg={2} className="tech-icons">
+        <img src={CSharp} alt="C#" className="tech-icon-images" />
+        <div className="tech-icons-text">C#</div>
+      </Col>
+
+      <Col xs={6} md={3} lg={2} className="tech-icons">
+        <img src={DotNet} alt=".NET" className="tech-icon-images" />
+        <div className="tech-icons-text">.NET</div>
       </Col>
 
       <Col xs={6} md={3} lg={2} className="tech-icons">
@@ -46,8 +69,13 @@ function Techstack() {
       </Col>
 
       <Col xs={6} md={3} lg={2} className="tech-icons">
-        <img src={Python} alt="Python" className="tech-icon-images" />
-        <div className="tech-icons-text">Python</div>
+        <img src={HTML} alt="HTML5" className="tech-icon-images" />
+        <div className="tech-icons-text">HTML5</div>
+      </Col>
+
+      <Col xs={6} md={3} lg={2} className="tech-icons">
+        <img src={CSS} alt="CSS3" className="tech-icon-images" />
+        <div className="tech-icons-text">CSS3</div>
       </Col>
 
       <Col xs={6} md={3} lg={2} className="tech-icons">
@@ -56,8 +84,28 @@ function Techstack() {
       </Col>
 
       <Col xs={6} md={3} lg={2} className="tech-icons">
+        <img src={Docker} alt="Docker" className="tech-icon-images" />
+        <div className="tech-icons-text">Docker</div>
+      </Col>
+
+      <Col xs={6} md={3} lg={2} className="tech-icons">
         <img src={Git} alt="Git" className="tech-icon-images" />
         <div className="tech-icons-text">Git</div>
+      </Col>
+
+      <Col xs={6} md={3} lg={2} className="tech-icons">
+        <img src={Pandas} alt="Pandas" className="tech-icon-images" />
+        <div className="tech-icons-text">Pandas</div>
+      </Col>
+
+      <Col xs={6} md={3} lg={2} className="tech-icons">
+        <img src={Numpy} alt="NumPy" className="tech-icon-images" />
+        <div className="tech-icons-text">NumPy</div>
+      </Col>
+
+      <Col xs={6} md={3} lg={2} className="tech-icons">
+        <img src={Sklearn} alt="Scikit-learn" className="tech-icon-images" />
+        <div className="tech-icons-text">Scikit-learn</div>
       </Col>
 
     </Row>

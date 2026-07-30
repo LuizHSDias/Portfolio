@@ -3,9 +3,12 @@ import { Col, Row } from "react-bootstrap";
 
 import intelliJ from "../../Assets/TechIcons/intellij-idea.svg";
 import vsCode from "../../Assets/TechIcons/vscode.svg";
+import visualStudio from "../../Assets/TechIcons/Visual Studio.svg";
+import docker from "../../Assets/TechIcons/Docker.svg";
 import Postman from "../../Assets/TechIcons/Postman.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
-import chrome from "../../Assets/TechIcons/Google Chrome.svg";
+import GitHub from "../../Assets/TechIcons/Github.svg";
+import MySQL from "../../Assets/TechIcons/MySQL Workbench.svg";
 
 function Toolstack() {
   return (
@@ -22,8 +25,13 @@ function Toolstack() {
       </Col>
 
       <Col xs={6} md={3} lg={2} className="tech-icons">
-        <img src={Postman} alt="Postman" className="tech-icon-images" />
-        <div className="tech-icons-text">Postman</div>
+        <img src={visualStudio} alt="Visual Studio" className="tech-icon-images" />
+        <div className="tech-icons-text">Visual Studio</div>
+      </Col>
+
+      <Col xs={6} md={3} lg={2} className="tech-icons">
+        <img src={docker} alt="Docker" className="tech-icon-images" />
+        <div className="tech-icons-text">Docker</div>
       </Col>
 
       <Col xs={6} md={3} lg={2} className="tech-icons">
@@ -32,8 +40,18 @@ function Toolstack() {
       </Col>
 
       <Col xs={6} md={3} lg={2} className="tech-icons">
-        <img src={chrome} alt="Google Chrome" className="tech-icon-images" />
-        <div className="tech-icons-text">Google Chrome</div>
+        <img src={GitHub} alt="GitHub" className="tech-icon-images" />
+        <div className="tech-icons-text">GitHub</div>
+      </Col>
+
+      <Col xs={6} md={3} lg={2} className="tech-icons">
+        <img src={Postman} alt="Postman" className="tech-icon-images" />
+        <div className="tech-icons-text">Postman</div>
+      </Col>
+
+      <Col xs={6} md={3} lg={2} className="tech-icons">
+        <img src={MySQL} alt="MySQL Workbench" className="tech-icon-images" />
+        <div className="tech-icons-text">MySQL Workbench</div>
       </Col>
 
     </Row>
