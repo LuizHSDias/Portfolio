@@ -41,7 +41,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={agenda}
-              title="Agenda Médica (TimeSaver)"
+              title="Sistema de Gestão de Agendamentos Médicos"
               description="Aplicação desenvolvida em Python, Flask e Docker para gerenciamento de consultas médicas. Implementa APIs REST, integração com API simulada e containerização utilizando Docker Compose."
               ghLink="https://github.com/LuizHSDias/agenda-medica-timesaver"
               readmeLink="https://github.com/LuizHSDias/agenda-medica-timesaver/blob/main/README.md"
