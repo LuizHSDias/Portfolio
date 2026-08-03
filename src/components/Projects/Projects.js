@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 import minipascal from "../../Assets/Projects/minipascal.png";
 import commerce from "../../Assets/Projects/Commerce.png";
-import agenda from "../../Assets/Projects/Agendamento.png";
+import agenda from "../../Assets/Projects/agendar.png";
 import PETIT from "../../Assets/Projects/PETIT.png";
 import CRUD from "../../Assets/Projects/CRUD.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
@@ -71,7 +71,7 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={CRUD}
-              title="CRUD Node.js"
+              title="CRUD Node"
               description="Aplicação CRUD desenvolvida utilizando Node.js, Express, Sequelize e MySQL, permitindo cadastro, consulta, atualização e remoção de registros."
               ghLink="https://github.com/LuizHSDias/CRUD_Node"
               readmeLink="https://github.com/LuizHSDias/CRUD_Node/blob/main/README.md"
@@ -84,7 +84,7 @@ function Projects() {
               title="Portfólio Pessoal"
               description="Portfólio responsivo desenvolvido em React e Bootstrap para apresentar minha trajetória, projetos, tecnologias e experiências em desenvolvimento de software."
               ghLink="https://github.com/LuizHSDias"
-              demoLink="https://luizhsdias.vercel.app"
+              readmeLink="https://github.com/LuizHSDias/README.md"
             />
           </Col>
 
