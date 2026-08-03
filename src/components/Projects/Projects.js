@@ -5,7 +5,7 @@ import Particle from "../Particle";
 
 import minipascal from "../../Assets/Projects/minipascal.png";
 import commerce from "../../Assets/Projects/Commerce.png";
-import agenda from "../../Assets/Projects/agenda.png";
+import agenda from "../../Assets/Projects/Agendamento.png";
 import PETIT from "../../Assets/Projects/PETIT.png";
 import CRUD from "../../Assets/Projects/CRUD.png";
 import Portfolio from "../../Assets/Projects/Portfolio.png";
