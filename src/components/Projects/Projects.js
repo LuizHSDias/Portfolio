@@ -84,7 +84,7 @@ function Projects() {
               title="Portfólio Pessoal"
               description="Portfólio responsivo desenvolvido em React e Bootstrap para apresentar minha trajetória, projetos, tecnologias e experiências em desenvolvimento de software."
               ghLink="https://github.com/LuizHSDias"
-              readmeLink="https://github.com/LuizHSDias/README.md"
+              readmeLink="https://github.com/LuizHSDias/Portfolio"
             />
           </Col>
 
