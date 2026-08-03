@@ -10,13 +10,10 @@ import {
   SiPython,
   SiHtml5,
   SiCss3,
-  SiDotnet,
-  SiPandas,
-  SiNumpy,
+  SiNodedotjs,
 } from "react-icons/si";
 
 import { FaJava } from "react-icons/fa6";
-import { TbBrandCSharp } from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -33,13 +30,8 @@ function Techstack() {
       </Col>
 
       <Col xs={6} md={3} lg={2} className="tech-icons">
-        <TbBrandCSharp size={45} color="#68217A" />
-        <div className="tech-icons-text">C#</div>
-      </Col>
-
-      <Col xs={6} md={3} lg={2} className="tech-icons">
-        <SiDotnet size={45} color="#512BD4" />
-        <div className="tech-icons-text">.NET</div>
+        <SiNodedotjs size={45} color="#5FA04E" />
+        <div className="tech-icons-text">Node.js</div>
       </Col>
 
       <Col xs={6} md={3} lg={2} className="tech-icons">
@@ -75,16 +67,6 @@ function Techstack() {
       <Col xs={6} md={3} lg={2} className="tech-icons">
         <SiCss3 size={45} color="#1572B6" />
         <div className="tech-icons-text">CSS3</div>
-      </Col>
-
-      <Col xs={6} md={3} lg={2} className="tech-icons">
-        <SiPandas size={45} color="#150458" />
-        <div className="tech-icons-text">Pandas</div>
-      </Col>
-
-      <Col xs={6} md={3} lg={2} className="tech-icons">
-        <SiNumpy size={45} color="#013243" />
-        <div className="tech-icons-text">NumPy</div>
       </Col>
 
     </Row>
