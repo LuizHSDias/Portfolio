@@ -97,7 +97,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://drive.google.com/file/d/1F0NafNq5coKOsUGtdZtLopX1LNJe_CfH/view?pli=1"
+                href="https://drive.google.com/drive/folders/1muDEi4ANG8D_EDkhm2q8GEjWu-XKopXr"
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={() => updateExpanded(false)}
